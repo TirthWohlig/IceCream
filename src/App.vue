@@ -109,13 +109,6 @@ export default {
       // Vanilla
       if (document.getElementById("white").checked) {
         document.getElementById("vanilla").style.visibility = "visible";
-        document.getElementById("strawberry").style.visibility = "hidden";
-        document.getElementById("peach").style.visibility = "hidden";
-        document.getElementById("mint").style.visibility = "hidden";
-        document.getElementById("chocolate").style.visibility = "hidden";
-        document.getElementById("butterscoth").style.visibility = "hidden";
-        document.getElementById("blueberry").style.visibility = "hidden";
-        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("vanilla").style.visibility = "hidden";
       }
@@ -123,14 +116,6 @@ export default {
       // Strawberry
       if (document.getElementById("pink").checked) {
         document.getElementById("strawberry").style.visibility = "visible";
-        document.getElementById("vanilla").style.visibility = "hidden";
-        document.getElementById("strawberry").style.visibility = "hidden";
-        document.getElementById("peach").style.visibility = "hidden";
-        document.getElementById("mint").style.visibility = "hidden";
-        document.getElementById("chocolate").style.visibility = "hidden";
-        document.getElementById("butterscoth").style.visibility = "hidden";
-        document.getElementById("blueberry").style.visibility = "hidden";
-        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("strawberry").style.visibility = "hidden";
       }
@@ -138,13 +123,6 @@ export default {
       // Peach
       if (document.getElementById("baby_pink").checked) {
         document.getElementById("peach").style.visibility = "visible";
-        document.getElementById("vanilla").style.visibility = "hidden";
-        document.getElementById("strawberry").style.visibility = "hidden";
-        document.getElementById("mint").style.visibility = "hidden";
-        document.getElementById("butterscoth").style.visibility = "hidden";
-        document.getElementById("chocolate").style.visibility = "hidden";
-        document.getElementById("blueberry").style.visibility = "hidden";
-        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("peach").style.visibility = "hidden";
       }
@@ -152,13 +130,6 @@ export default {
       // Mint
       if (document.getElementById("green").checked) {
         document.getElementById("mint").style.visibility = "visible";
-        document.getElementById("vanilla").style.visibility = "hidden";
-        document.getElementById("strawberry").style.visibility = "hidden";
-        document.getElementById("peach").style.visibility = "hidden";
-        document.getElementById("butterscoth").style.visibility = "hidden";
-        document.getElementById("chocolate").style.visibility = "hidden";
-        document.getElementById("blueberry").style.visibility = "hidden";
-        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("mint").style.visibility = "hidden";
       }
@@ -166,13 +137,6 @@ export default {
       // Chocolate
       if (document.getElementById("brown").checked) {
         document.getElementById("chocolate").style.visibility = "visible";
-        document.getElementById("vanilla").style.visibility = "hidden";
-        document.getElementById("strawberry").style.visibility = "hidden";
-        document.getElementById("peach").style.visibility = "hidden";
-        document.getElementById("butterscoth").style.visibility = "hidden";
-        document.getElementById("mint").style.visibility = "hidden";
-        document.getElementById("blueberry").style.visibility = "hidden";
-        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("chocolate").style.visibility = "hidden";
       }
@@ -180,13 +144,6 @@ export default {
       // Butterscoth
       if (document.getElementById("yellow").checked) {
         document.getElementById("butterscoth").style.visibility = "visible";
-        document.getElementById("vanilla").style.visibility = "hidden";
-        document.getElementById("strawberry").style.visibility = "hidden";
-        document.getElementById("peach").style.visibility = "hidden";
-        document.getElementById("mint").style.visibility = "hidden";
-        document.getElementById("chocolate").style.visibility = "hidden";
-        document.getElementById("blueberry").style.visibility = "hidden";
-        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("butterscoth").style.visibility = "hidden";
       }
@@ -194,13 +151,6 @@ export default {
       // BlueBerry
       if (document.getElementById("blue").checked) {
         document.getElementById("blueberry").style.visibility = "visible";
-        document.getElementById("vanilla").style.visibility = "hidden";
-        document.getElementById("strawberry").style.visibility = "hidden";
-        document.getElementById("peach").style.visibility = "hidden";
-        document.getElementById("mint").style.visibility = "hidden";
-        document.getElementById("butterscoth").style.visibility = "hidden";
-        document.getElementById("chocolate").style.visibility = "hidden";
-        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("blueberry").style.visibility = "hidden";
       }
@@ -208,13 +158,6 @@ export default {
       // Berry
       if (document.getElementById("purple").checked) {
         document.getElementById("berry").style.visibility = "visible";
-        document.getElementById("vanilla").style.visibility = "hidden";
-        document.getElementById("strawberry").style.visibility = "hidden";
-        document.getElementById("peach").style.visibility = "hidden";
-        document.getElementById("mint").style.visibility = "hidden";
-        document.getElementById("butterscoth").style.visibility = "hidden";
-        document.getElementById("chocolate").style.visibility = "hidden";
-        document.getElementById("blueberry").style.visibility = "hidden";
       } else {
         document.getElementById("berry").style.visibility = "hidden";
       }
