@@ -63,12 +63,12 @@
         class="check"
         id="white"
         name="Box"
-        @click="vanilla"
+        @click="cream"
       />
       Vanilla
       <br />
       <br />
-      <input type="checkbox" id="pink" name="Box" @click="strawberry" />
+      <input type="checkbox" id="pink" name="Box" @click="cream" />
       Strawberry
       <br />
       <br />
@@ -77,27 +77,27 @@
         autocomplete="off"
         id="baby_pink"
         name="Box"
-        @click="peach"
-      />  
+        @click="cream"
+      />
       Peach
       <br />
       <br />
-      <input type="checkbox" id="green" name="Box" @click="mint" /> Mint
+      <input type="checkbox" id="green" name="Box" @click="cream" /> Mint
       <br />
       <br />
-      <input type="checkbox" id="brown" name="Box" @click="chocolate" />
+      <input type="checkbox" id="brown" name="Box" @click="cream" />
       Chocolate
       <br />
       <br />
-      <input type="checkbox" id="yellow" name="Box" @click="butterscoth" />
+      <input type="checkbox" id="yellow" name="Box" @click="cream" />
       Butterscoth
       <br />
       <br />
-      <input type="checkbox" id="blue" name="Box" @click="blueberry" />
+      <input type="checkbox" id="blue" name="Box" @click="cream" />
       Blueberry
       <br />
       <br />
-      <input type="checkbox" id="purple" name="Box" @click="berry" /> Berry
+      <input type="checkbox" id="purple" name="Box" @click="cream" /> Berry
     </div>
   </form>
 </template>
@@ -105,59 +105,116 @@
 <script>
 export default {
   methods: {
-    vanilla() {
+    cream() {
+      // Vanilla
       if (document.getElementById("white").checked) {
         document.getElementById("vanilla").style.visibility = "visible";
+        document.getElementById("strawberry").style.visibility = "hidden";
+        document.getElementById("peach").style.visibility = "hidden";
+        document.getElementById("mint").style.visibility = "hidden";
+        document.getElementById("chocolate").style.visibility = "hidden";
+        document.getElementById("butterscoth").style.visibility = "hidden";
+        document.getElementById("blueberry").style.visibility = "hidden";
+        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("vanilla").style.visibility = "hidden";
       }
-    },
-    strawberry() {
+
+      // Strawberry
       if (document.getElementById("pink").checked) {
-        document.getElementById("strawberry").style.cssText =
-          "visibility:visible; z-index:999";
+        document.getElementById("strawberry").style.visibility = "visible";
+        document.getElementById("vanilla").style.visibility = "hidden";
+        document.getElementById("strawberry").style.visibility = "hidden";
+        document.getElementById("peach").style.visibility = "hidden";
+        document.getElementById("mint").style.visibility = "hidden";
+        document.getElementById("chocolate").style.visibility = "hidden";
+        document.getElementById("butterscoth").style.visibility = "hidden";
+        document.getElementById("blueberry").style.visibility = "hidden";
+        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("strawberry").style.visibility = "hidden";
       }
-    },
-    peach() {
+
+      // Peach
       if (document.getElementById("baby_pink").checked) {
         document.getElementById("peach").style.visibility = "visible";
+        document.getElementById("vanilla").style.visibility = "hidden";
+        document.getElementById("strawberry").style.visibility = "hidden";
+        document.getElementById("mint").style.visibility = "hidden";
+        document.getElementById("butterscoth").style.visibility = "hidden";
+        document.getElementById("chocolate").style.visibility = "hidden";
+        document.getElementById("blueberry").style.visibility = "hidden";
+        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("peach").style.visibility = "hidden";
       }
-    },
-    mint() {
+
+      // Mint
       if (document.getElementById("green").checked) {
         document.getElementById("mint").style.visibility = "visible";
+        document.getElementById("vanilla").style.visibility = "hidden";
+        document.getElementById("strawberry").style.visibility = "hidden";
+        document.getElementById("peach").style.visibility = "hidden";
+        document.getElementById("butterscoth").style.visibility = "hidden";
+        document.getElementById("chocolate").style.visibility = "hidden";
+        document.getElementById("blueberry").style.visibility = "hidden";
+        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("mint").style.visibility = "hidden";
       }
-    },
-    chocolate() {
+
+      // Chocolate
       if (document.getElementById("brown").checked) {
         document.getElementById("chocolate").style.visibility = "visible";
+        document.getElementById("vanilla").style.visibility = "hidden";
+        document.getElementById("strawberry").style.visibility = "hidden";
+        document.getElementById("peach").style.visibility = "hidden";
+        document.getElementById("butterscoth").style.visibility = "hidden";
+        document.getElementById("mint").style.visibility = "hidden";
+        document.getElementById("blueberry").style.visibility = "hidden";
+        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("chocolate").style.visibility = "hidden";
       }
-    },
-    butterscoth() {
+
+      // Butterscoth
       if (document.getElementById("yellow").checked) {
         document.getElementById("butterscoth").style.visibility = "visible";
+        document.getElementById("vanilla").style.visibility = "hidden";
+        document.getElementById("strawberry").style.visibility = "hidden";
+        document.getElementById("peach").style.visibility = "hidden";
+        document.getElementById("mint").style.visibility = "hidden";
+        document.getElementById("chocolate").style.visibility = "hidden";
+        document.getElementById("blueberry").style.visibility = "hidden";
+        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("butterscoth").style.visibility = "hidden";
       }
-    },
-    blueberry() {
+
+      // BlueBerry
       if (document.getElementById("blue").checked) {
         document.getElementById("blueberry").style.visibility = "visible";
+        document.getElementById("vanilla").style.visibility = "hidden";
+        document.getElementById("strawberry").style.visibility = "hidden";
+        document.getElementById("peach").style.visibility = "hidden";
+        document.getElementById("mint").style.visibility = "hidden";
+        document.getElementById("butterscoth").style.visibility = "hidden";
+        document.getElementById("chocolate").style.visibility = "hidden";
+        document.getElementById("berry").style.visibility = "hidden";
       } else {
         document.getElementById("blueberry").style.visibility = "hidden";
       }
-    },
-    berry() {
+
+      // Berry
       if (document.getElementById("purple").checked) {
         document.getElementById("berry").style.visibility = "visible";
+        document.getElementById("vanilla").style.visibility = "hidden";
+        document.getElementById("strawberry").style.visibility = "hidden";
+        document.getElementById("peach").style.visibility = "hidden";
+        document.getElementById("mint").style.visibility = "hidden";
+        document.getElementById("butterscoth").style.visibility = "hidden";
+        document.getElementById("chocolate").style.visibility = "hidden";
+        document.getElementById("blueberry").style.visibility = "hidden";
       } else {
         document.getElementById("berry").style.visibility = "hidden";
       }
@@ -174,7 +231,7 @@ body {
 }
 
 .flavour {
-  }
+}
 
 .cream {
   text-align: center;
